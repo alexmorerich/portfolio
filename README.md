@@ -131,6 +131,37 @@ ICBC's HK$88 minimum binds below HK$63,768/trade. Buying ICBC's ETF **every 2 mo
 - For a long-term single-ETF hold, use **SC Priority** (unconditional $0 custody) or an **ICBC Wealth-Management account** (unconditional + lowest dividend min). **Do not** treat a *regular* ICBC account as zero-custody once you stop trading (~HK$200/yr).
 - Prefer a **semi-annual payer (03437)** over a monthly one (03466): fewer, larger payouts pay the true 0.5% (~HK$168) instead of hitting the per-payout minimum 12× (~HK$360). This also neutralises BOCHK's HK$75 minimum, which only bites on small/monthly payouts.
 
+### Scenario C — 1 ETF + 2 bank stocks (stamp duty + long-term hold)
+
+**Holdings:** 03437 (Bosera SOE Dividend ETF, semi-annual) + **03988 (Bank of China)** + **01398 (ICBC)** — the two banks are *stocks* (H-shares, ~6–7%, interim + final = 2 payouts/year each), **not ETFs**, so each buy pays **0.1% stamp duty** (ETFs are exempt).
+
+**Plan:** HK$500,000 over **12 monthly buys (~HK$41,667 each), rotating** the three holdings (each bought ~4×). ~6 dividend payouts/year. *(Buying all 3 every month = 36 small trades, which triples ICBC's HK$88-minimum commission to ~HK$3,168 — avoid.)*
+
+**Year 1 (deploying — 12 buys):**
+
+| Bank | Commission | Custody | Dividend (~6×) | Gov + stamp duty | **Total** |
+|---|---|---|---|---|---|
+| **SC Priority** | 1,000 | 0 | ~180 | ~405 | **≈ 1,585** |
+| **ICBC (Asia)** | 1,056 (min $88) | 0 | ~130 | ~405 | **≈ 1,591** |
+| **Wing Lung Sunflower** | 900 | 120 | ~180 | ~405 | **≈ 1,605** |
+| **DBS Treasures** | 1,000 | 200 | ~180 | ~405 | **≈ 1,785** |
+| **BOCHK** | 0 / 1,000 | 0 / 2,000 | ~450 | ~405 | **≈ 855 / 3,855** |
+
+**Year 2+ (holding HK$500k, no buying — commission & stamp duty fall away; ICBC's turnover-based custody waiver lapses):**
+
+| Bank | Custody | Dividend | **Total/yr** |
+|---|---|---|---|
+| **SC Priority / ICBC Wealth a/c** | 0 | ~180 | **≈ 180** |
+| **Wing Lung Sunflower** | 120 | ~180 | ≈ 300 |
+| **ICBC regular account** | 200 | ~174 | ≈ 374 |
+| **DBS Treasures** | 200 | ~180 | ≈ 380 |
+| **BOCHK** | ~2,000 | ~450 | ≈ 2,450 |
+
+**Notes:**
+- Stamp duty (~HK$335/yr) applies only to the two bank *stocks*, not the ETF — identical across all banks.
+- With few, large dividends the handling fee is small and similar for all — except **BOCHK**, whose HK$75 minimum still bites (~HK$450).
+- **Deploying year:** SC ≈ ICBC ≈ Wing Lung (tied ~HK$1,590). **Long-term hold:** **SC Priority wins** (unconditional $0 custody); a *regular* ICBC account jumps to ~HK$374 once buying stops.
+
 ### Mainland-China tax-resident note (withholding tax ≠ handling fee)
 
 - The **dividend collection fee** above is the **bank's handling charge** — it varies by bank.
@@ -261,6 +292,37 @@ ICBC's HK$88 minimum binds below HK$63,768/trade. Buying ICBC's ETF **every 2 mo
 **要点：**
 - 长揸单只 ETF → 用**渣打优先**（无条件 $0 托管）或**工银理财金账户**（无条件 + 股息最低收费最低）。**别**把*普通*工银账户当零托管 —— 停止交易后 ~HK$200/年。
 - 单只优选**每半年派息（03437）**而非月派息（03466）：派息次数少、每次按真实 0.5% 收（~HK$168），而非触发 12 次最低收费（~HK$360）；这也让**中银的 HK$75 最低收费咬不动**（只在小额/月派息时才伤人）。
+
+### 场景 C —— 1 只 ETF + 2 只银行股（含印花税 + 长揸）
+
+**持仓：** 03437（博时央企红利 ETF，每半年派息）+ **03988（中国银行）** + **01398（工商银行）** —— 两只银行是*股票*（H 股，~6–7%，中期+末期 = 每年 2 次派息），**非 ETF**，所以每次买入要付 **0.1% 印花税**（ETF 免）。
+
+**计划：** HK$500,000 分 **12 次月供（每次 ~HK$41,667），三只轮流**买（各约 4 次）。全年约 6 次派息。*（若改成每月买齐 3 只 = 36 笔小单，会让工银 HK$88 最低佣金翻 3 倍到 ~HK$3,168，别这么做。）*
+
+**第 1 年（买入年 — 12 笔）：**
+
+| 银行 | 佣金 | 托管 | 股息费(~6次) | 政府+印花税 | **总计** |
+|---|---|---|---|---|---|
+| **渣打优先** | 1,000 | 0 | ~180 | ~405 | **≈ 1,585** |
+| **工银亚洲** | 1,056 (min $88) | 0 | ~130 | ~405 | **≈ 1,591** |
+| **永隆金葵花** | 900 | 120 | ~180 | ~405 | **≈ 1,605** |
+| **星展丰盛** | 1,000 | 200 | ~180 | ~405 | **≈ 1,785** |
+| **中银香港** | 0 / 1,000 | 0 / 2,000 | ~450 | ~405 | **≈ 855 / 3,855** |
+
+**第 2 年起（满仓 HK$50 万、不再买入 — 佣金和印花税消失；工银周转免托管失效）：**
+
+| 银行 | 托管 | 股息费 | **年成本** |
+|---|---|---|---|
+| **渣打优先 / 工银理财金** | 0 | ~180 | **≈ 180** |
+| **永隆金葵花** | 120 | ~180 | ≈ 300 |
+| **工银普通账户** | 200 | ~174 | ≈ 374 |
+| **星展丰盛** | 200 | ~180 | ≈ 380 |
+| **中银香港** | ~2,000 | ~450 | ≈ 2,450 |
+
+**说明：**
+- 印花税（~HK$335/年）只对两只银行*股票*收，ETF 免 —— 5 家相同。
+- 派息次数少、金额大，故股息费小且各行相近 —— 唯 **中银** 的 HK$75 最低收费仍咬住（~HK$450）。
+- **买入年：** 渣打 ≈ 工银 ≈ 永隆（打平 ~HK$1,590）。**长揸：** **渣打优先胜**（无条件 $0 托管）；*普通*工银账户在停止买入后升到 ~HK$374。
 
 ### 大陆税务居民提示（预扣税 ≠ 手续费）
 
