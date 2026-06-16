@@ -17,7 +17,7 @@
 
 | Rank | Bank (tier) | Full-year cost | Why |
 |------|-------------|---------------|-----|
-| 🥇 | **ICBC (Asia)** | **≈ HK$1,401** | Lowest dividend fee (min HK$20) + free custody |
+| 🥇 | **ICBC (Asia)** | **≈ HK$1,401** | Lowest dividend fee (min HK$20) + free custody *(while trading — see caveat)* |
 | 🥈 | **Standard Chartered — Priority** | **≈ HK$1,445** | Unconditional $0 custody, simplest |
 | 🥉 | **CMB Wing Lung — Sunflower** | **≈ HK$1,469** | Lowest commission (0.18%) |
 | 4 | **DBS — Treasures** | **≈ HK$1,645** | Custody min HK$100×2 + no commission edge |
@@ -55,7 +55,7 @@
 
 | Bank | Cost |
 |------|------|
-| ICBC | **HK$0** (6-mo turnover HK$240k ≥ HK$200k → waived) |
+| ICBC | **HK$0** *while trading* (6-mo turnover HK$240k ≥ HK$200k → waived) — **~HK$200/yr once you stop trading**, unless on a Wealth a/c (see below) |
 | SC Priority | **HK$0** (always waived) |
 | Wing Lung | HK$120 |
 | DBS Treasures | **HK$200** (min HK$100 × 2 charges; 0.025% of ≤HK$500k is below the minimum) |
@@ -92,6 +92,45 @@ ICBC's HK$88 minimum binds below HK$63,768/trade. Buying ICBC's ETF **every 2 mo
 - **ICBC total ≈ HK$1,005 — a clear #1.**
 - Other banks charge commission linearly on turnover, so consolidating trades makes **no difference** to them (Wing Lung always 0.18%×480k=864; SC/DBS 0.2%×480k=960).
 
+### Single ETF & long-term holding — the custody-waiver caveat
+
+**Important:** ICBC's free custody depends on **6-month turnover ≥ HK$200,000**. That holds *while you keep buying*, but **once you stop trading and just hold, the waiver lapses** and a regular ICBC account is charged custody (HK$0.15/board-lot, **min HK$100 × 2 = HK$200/year**). Only two options waive custody **unconditionally**:
+
+| Account | Custody waived when idle (buy-and-hold)? |
+|---|---|
+| **SC Priority** | ✅ Always, no condition |
+| **ICBC Wealth-Management account** | ✅ Unconditional (also cuts commission to 0.125%) |
+| ICBC **regular** account | ❌ ~HK$200/year once turnover stops |
+| Wing Lung Sunflower | ❌ HK$120/year |
+| DBS Treasures | ❌ ~HK$200/year |
+| BOCHK | ❌ ~HK$2,000/year standard (unless promo/tier waiver) |
+
+**Long-term cost of a single ETF** (≈HK$480k held, no trading — only custody + dividend fee):
+
+*Single **semi-annual** payer (e.g. 03437): large payouts, so 0.5% > every minimum → dividend fee ≈ HK$168 for all banks; **custody alone decides**:*
+
+| Bank | Custody | Dividend | Total |
+|---|---|---|---|
+| **SC Priority / ICBC Wealth a/c** | 0 | 168 | **≈ HK$168** |
+| Wing Lung Sunflower | 120 | 168 | ≈ HK$288 |
+| ICBC regular / DBS Treasures | 200 | 168 | ≈ HK$368 |
+| BOCHK | ~2,000 | 168 | ≈ HK$2,168 |
+
+*Single **monthly** payer (e.g. 03466): small payouts hit the minimum 12×, so ICBC's HK$20 min helps:*
+
+| Bank | Custody | Dividend (12×min) | Total |
+|---|---|---|---|
+| **ICBC Wealth a/c** | 0 | 240 (×$20) | **≈ HK$240** |
+| **SC Priority** | 0 | 360 (×$30) | ≈ HK$360 |
+| ICBC regular | 200 | 240 | ≈ HK$440 |
+| Wing Lung Sunflower | 120 | 360 | ≈ HK$480 |
+| DBS Treasures | 200 | 360 | ≈ HK$560 |
+| BOCHK | ~2,000 | 900 (×$75) | ≈ HK$2,900 |
+
+**Takeaways:**
+- For a long-term single-ETF hold, use **SC Priority** (unconditional $0 custody) or an **ICBC Wealth-Management account** (unconditional + lowest dividend min). **Do not** treat a *regular* ICBC account as zero-custody once you stop trading (~HK$200/yr).
+- Prefer a **semi-annual payer (03437)** over a monthly one (03466): fewer, larger payouts pay the true 0.5% (~HK$168) instead of hitting the per-payout minimum 12× (~HK$360). This also neutralises BOCHK's HK$75 minimum, which only bites on small/monthly payouts.
+
 ### Mainland-China tax-resident note (withholding tax ≠ handling fee)
 
 - The **dividend collection fee** above is the **bank's handling charge** — it varies by bank.
@@ -109,7 +148,7 @@ ICBC's HK$88 minimum binds below HK$63,768/trade. Buying ICBC's ETF **every 2 mo
 
 | 排名 | 银行（等级） | 全年总成本 | 原因 |
 |------|-------------|-----------|------|
-| 🥇 | **工银亚洲** | **≈ HK$1,401** | 股息费最低（min HK$20）+ 托管豁免 |
+| 🥇 | **工银亚洲** | **≈ HK$1,401** | 股息费最低（min HK$20）+ 托管豁免*（仅交易期 — 见下方陷阱）* |
 | 🥈 | **渣打优先理财** | **≈ HK$1,445** | 无条件 $0 托管，最省心 |
 | 🥉 | **招商永隆金葵花** | **≈ HK$1,469** | 佣金最低（0.18%） |
 | 4 | **星展丰盛理财** | **≈ HK$1,645** | 托管最低 HK$100×2，佣金无优势 |
@@ -147,7 +186,7 @@ ICBC's HK$88 minimum binds below HK$63,768/trade. Buying ICBC's ETF **every 2 mo
 
 | 银行 | 成本 |
 |------|------|
-| 工银亚洲 | **HK$0**（半年周转 24 万 ≥ 20 万 → 豁免） |
+| 工银亚洲 | **HK$0** *仅交易期*（半年周转 24 万 ≥ 20 万 → 豁免）— **停止交易后 ~HK$200/年**，除非理财金账户（见下） |
 | 渣打优先 | **HK$0**（永久豁免） |
 | 永隆金葵花 | HK$120 |
 | 星展丰盛 | **HK$200**（每次最低 HK$100 ×2；≤50 万的 0.025% 低于最低收费） |
@@ -183,6 +222,45 @@ ICBC's HK$88 minimum binds below HK$63,768/trade. Buying ICBC's ETF **every 2 mo
 - 佣金：0.138% × 8 万 = HK$110/笔 × 6 = **HK$660**（从 HK$1,056 降下来）
 - **工银总成本 ≈ HK$1,005 — 断层第一。**
 - 其他行佣金按周转额线性计，合并交易**无差别**（永隆永远 0.18%×48万=864；渣打/星展 0.2%×48万=960）。
+
+### 单只 ETF 与长揸 —— 托管豁免的陷阱
+
+**重要：** 工银的免托管依赖**6 个月交易额 ≥ HK$20 万**。*持续买入时*成立，但**一旦停止交易、纯持有，豁免失效**，普通工银账户照收托管（每手 HK$0.15，**最低 HK$100 ×2 = HK$200/年**）。只有两种账户**无条件**免托管：
+
+| 账户 | 长揸（停止交易）仍免托管？ |
+|---|---|
+| **渣打优先** | ✅ 无条件，永久 |
+| **工银理财金账户** | ✅ 无条件（佣金也降到 0.125%） |
+| 工银**普通**账户 | ❌ 停止交易后 ~HK$200/年 |
+| 永隆金葵花 | ❌ HK$120/年 |
+| 星展丰盛 | ❌ ~HK$200/年 |
+| 中银香港 | ❌ 标准 ~HK$2,000/年（除非促销/等级豁免） |
+
+**单只 ETF 长揸年成本**（约持有 HK$48 万、0 交易 — 只剩托管 + 股息费）：
+
+*单只**每半年**派息（如 03437）：派息额大，0.5% 超过所有最低收费 → 股息费 5 家约 HK$168，**只比托管**：*
+
+| 银行 | 托管 | 股息费 | 合计 |
+|---|---|---|---|
+| **渣打优先 / 工银理财金** | 0 | 168 | **≈ HK$168** |
+| 永隆金葵花 | 120 | 168 | ≈ HK$288 |
+| 工银普通 / 星展丰盛 | 200 | 168 | ≈ HK$368 |
+| 中银香港 | ~2,000 | 168 | ≈ HK$2,168 |
+
+*单只**每月**派息（如 03466）：派息额小、12 次都触发最低收费，工银 min$20 占优：*
+
+| 银行 | 托管 | 股息费(12×min) | 合计 |
+|---|---|---|---|
+| **工银理财金** | 0 | 240 (×$20) | **≈ HK$240** |
+| **渣打优先** | 0 | 360 (×$30) | ≈ HK$360 |
+| 工银普通 | 200 | 240 | ≈ HK$440 |
+| 永隆金葵花 | 120 | 360 | ≈ HK$480 |
+| 星展丰盛 | 200 | 360 | ≈ HK$560 |
+| 中银香港 | ~2,000 | 900 (×$75) | ≈ HK$2,900 |
+
+**要点：**
+- 长揸单只 ETF → 用**渣打优先**（无条件 $0 托管）或**工银理财金账户**（无条件 + 股息最低收费最低）。**别**把*普通*工银账户当零托管 —— 停止交易后 ~HK$200/年。
+- 单只优选**每半年派息（03437）**而非月派息（03466）：派息次数少、每次按真实 0.5% 收（~HK$168），而非触发 12 次最低收费（~HK$360）；这也让**中银的 HK$75 最低收费咬不动**（只在小额/月派息时才伤人）。
 
 ### 大陆税务居民提示（预扣税 ≠ 手续费）
 
