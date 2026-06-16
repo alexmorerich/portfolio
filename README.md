@@ -7,6 +7,21 @@
 
 ---
 
+## ⚡ Scenario quick-reference / 场景速查表
+
+| # | Scenario / 场景 | Cheapest / 最省 | Key reason / 关键原因 |
+|---|---|---|---|
+| **A** | 2 ETFs, HK$40k/mo DCA (small trades) / 两只ETF月供小额 | **ICBC ≈ SC** (~HK$1,400/yr) | ICBC's HK$20 dividend min + custody waived; SC unconditional custody |
+| **B** | Single ETF, long-term hold / 单只ETF长揸 | **SC Priority / ICBC Wealth** | Only these waive custody **unconditionally** once you stop trading |
+| **C** | 1 ETF + 2 bank stocks, HK$500k / 1ETF+2银行股 | Yr1 **SC≈ICBC≈WL**; hold **SC** | Few large dividends → fee similar; custody decides long-term |
+| **D** | One holding, HK$500k / 三选一全仓50万 | Stock **SC/WL** · ETF **ICBC** | Bank-stock dividend fee equal at all banks; monthly ETF → ICBC min $20 |
+| **E** | One holding, HK$800k (~HK$66k/trade) / 全仓80万 | **ICBC (Wealth a/c)** | 0.138% beats 0.20% at big trades; HK$800k unlocks ICBC Wealth |
+| **F** | HK$3M anti-sanctions (gold+USD+stock) / 抗制裁300万 | **ICBC (Wealth a/c)** | 0.1% ≥HK$1M tier + unconditional custody; gold & USD have no dividend fee |
+
+**Rule of thumb / 经验法则:** small trades → *minimums* dominate (low-min banks win); big trades → *rates* dominate (ICBC's 0.138% / ≥1M 0.1% wins); long-term hold → *custody* dominates (SC or ICBC-Wealth, unconditional $0). **BOCHK only with promos**, and worst for frequent small dividends (HK$75 min). / 小额拼最低收费、大额拼费率（工银）、长揸拼托管（渣打/工银理财金）；中银只在促销时考虑。
+
+---
+
 ## English
 
 ### TL;DR — Full-year cost ranking
@@ -237,6 +252,46 @@ Put all **HK$800,000** into **one** of: 03466 (Hang Seng High Dividend 30 ETF) /
 - At this trade size **ICBC wins year 1 for both holdings** — its 0.138% finally beats the 0.20% banks once the HK$88 minimum stops binding.
 - HK$800k makes the **ICBC Wealth-Management account** reachable → unconditional $0 custody, so ICBC also wins long-term. **SC Priority** is the simple fallback (unconditional $0 custody, but 0.20% commission costs ~HK$500 more in year 1).
 - Bank stock: ~HK$800 stamp duty in year 1, then HK$280/yr dividend fee (same at all banks). ETF: no stamp duty but higher long-term handling (ICBC 280 / SC 360).
+
+### Scenario F — sanctions-resilient HK$3M allocation (gold + USD + stock)
+
+Three HK$1,000,000 legs (HK$3M total): **gold ETF** + **USD short-term deposit** + a **bank stock** (01398 / 03988).
+
+⚠️ **Strategy note first:** for an *anti-US-sanctions* goal the **USD deposit is the weakest leg** — USD clears through US correspondent banks and is the primary sanctions chokepoint; consider CNH (offshore RMB) or HKD instead. For gold use **03081 (Value Gold ETF — physical gold vaulted in Hong Kong, HKD)**, *not* SPDR 02840 (a US-domiciled trust). What protects you is *where the asset is held*, not the fee.
+
+**Fee profile per leg:**
+| Leg | Commission | Stamp duty | Custody | Dividend fee |
+|---|---|---|---|---|
+| Gold ETF (03081) | yes (one-off) | $0 (ETF) | yes | **$0 — gold ETFs pay no dividend** |
+| USD deposit | $0 | $0 | $0 | n/a (earns interest) |
+| Bank stock | yes | 0.1% (~$1,000) | yes | 0.5% × ~$70k/yr ≈ **$350/yr** |
+
+Only **two legs (gold ETF + stock ≈ HK$2M securities)** carry custody; only the **stock** carries a dividend fee.
+
+**Year 1 (buying ~HK$2M securities; the USD leg is just FX-converted):**
+| Bank | Commission | Stamp | Custody | Dividend | **Year-1** |
+|---|---|---|---|---|---|
+| **ICBC (Wealth a/c)** | ~2,000 (0.1% ≥$1M tier) | 1,000 | 0 | ~175 | **≈ 3,300** |
+| Wing Lung | 3,600 | 1,000 | 120 | ~175 | ≈ 5,050 |
+| SC Priority | 4,000 | 1,000 | 0 | ~175 | ≈ 5,325 |
+| DBS Treasures | 4,000 | 1,000 | 500 | ~175 | ≈ 5,825 |
+| BOCHK | 0 / 4,000 | 1,000 | 0 / 2,000 | ~175 | ≈ 1,325 / 7,325 |
+
+*(Plus a one-off HKD→USD FX spread on the deposit, ~HK$1,000–2,500, bank-dependent. The gold ETF's ~0.5%/yr management fee is a fund cost, identical at every bank.)*
+
+**Year 2+ (holding — custody + dividend only):**
+| Bank | Custody (~HK$2M securities) | Dividend | **Annual** |
+|---|---|---|---|
+| **ICBC Wealth a/c / SC Priority** | 0 | 350 | **≈ 350** |
+| Wing Lung | 120 | 350 | ≈ 470 |
+| ICBC regular | 200 | 350 | ≈ 550 |
+| DBS Treasures | 500 (0.025%×$2M) | 350 | ≈ 850 |
+| BOCHK | ~2,000 | 350 | ≈ 2,350 |
+
+**Takeaways:**
+- **ICBC wins** at HK$3M: ≥HK$1M trades get the **0.1%** tier, and HK$3M easily clears the Wealth-account threshold → unconditional $0 custody. SC Priority is the simple fallback.
+- The **gold ETF and USD deposit add no dividend fee**; the only recurring handling fee is the bank stock's ~HK$350/yr (same at all banks).
+- For sanctions resilience, fees are secondary — prioritise **HK/Asia-held assets** (HK-vaulted gold 03081, HK-cleared stocks) and reconsider the USD-deposit leg.
 
 ### Mainland-China tax-resident note (withholding tax ≠ handling fee)
 
@@ -475,6 +530,46 @@ Put all **HK$800,000** into **one** of: 03466 (Hang Seng High Dividend 30 ETF) /
 - 这个交易额下 **工银第一年两个标的都最低** —— 0.138% 在最低收费失效后终于胜过 0.20% 的银行。
 - HK$80 万让**工银理财金账户**可达 → 无条件 $0 托管，长揸也最优。**渣打优先**是免脑备选（无条件 $0 托管，但 0.20% 佣金第一年贵 ~HK$500）。
 - 银行股：第一年印花税 ~HK$800，往后股息费 HK$280/年（各行相同）；ETF：免印花税但长揸股息费略高（工银 280 / 渣打 360）。
+
+### 场景 F —— 抗美元制裁 HK$300 万配置（黄金 + 美元 + 银行股）
+
+三笔各 HK$100 万（共 HK$300 万）：**黄金 ETF** + **美元短期存款** + **银行股**（01398 / 03988）。
+
+⚠️ **先说策略：** 若目标是*抗美元制裁*，**美元存款是最弱的一环** —— 美元靠美国代理行清算，正是制裁卡点；建议改为 CNH（离岸人民币）或港元。黄金用 **03081（价值黄金 ETF —— 实物金存于香港金库、港元）**，**别用** SPDR 02840（美国信托）。保护你的是*资产存放地*，不是费率。
+
+**各笔费用结构：**
+| 资产 | 佣金 | 印花税 | 托管 | 代收股息费 |
+|---|---|---|---|---|
+| 黄金 ETF (03081) | 有（一次性） | $0（ETF） | 有 | **$0 —— 黄金 ETF 不派息** |
+| 美元存款 | $0 | $0 | $0 | 无（赚利息） |
+| 银行股 | 有 | 0.1%（~$1,000） | 有 | 0.5% × ~$70k/年 ≈ **$350/年** |
+
+只有**两笔（黄金 ETF + 股票 ≈ HK$200 万证券）**有托管费；只有**股票**有代收股息费。
+
+**第一年（买入 ~HK$200 万证券；美元那笔只是换汇）：**
+| 银行 | 佣金 | 印花税 | 托管 | 股息 | **第一年** |
+|---|---|---|---|---|---|
+| **工银（理财金）** | ~2,000（0.1% ≥$1M 档） | 1,000 | 0 | ~175 | **≈ 3,300** |
+| 永隆金葵花 | 3,600 | 1,000 | 120 | ~175 | ≈ 5,050 |
+| 渣打优先 | 4,000 | 1,000 | 0 | ~175 | ≈ 5,325 |
+| 星展丰盛 | 4,000 | 1,000 | 500 | ~175 | ≈ 5,825 |
+| 中银香港 | 0 / 4,000 | 1,000 | 0 / 2,000 | ~175 | ≈ 1,325 / 7,325 |
+
+*（另加美元存款的 HKD→USD 换汇点差，一次性 ~HK$1,000–2,500，按银行而异。黄金 ETF 的 ~0.5%/年管理费是基金成本，各行相同。）*
+
+**第二年起（持有 —— 只剩托管 + 股息）：**
+| 银行 | 托管（~HK$200 万证券） | 股息 | **年成本** |
+|---|---|---|---|
+| **工银理财金 / 渣打优先** | 0 | 350 | **≈ 350** |
+| 永隆金葵花 | 120 | 350 | ≈ 470 |
+| 工银普通账户 | 200 | 350 | ≈ 550 |
+| 星展丰盛 | 500（0.025%×$2M） | 350 | ≈ 850 |
+| 中银香港 | ~2,000 | 350 | ≈ 2,350 |
+
+**要点：**
+- **工银胜出**：HK$300 万下，≥HK$100 万的单笔享 **0.1%** 档，且 300 万轻松达理财金门槛 → 无条件 $0 托管。渣打优先为免脑备选。
+- **黄金 ETF 和美元存款都不产生代收股息费**；唯一经常性手续费是银行股的 ~HK$350/年（各行相同）。
+- 抗制裁层面，费率是次要的 —— 优先选**存放于香港/亚洲的资产**（香港金库黄金 03081、香港结算的股票），并重新考虑美元存款那一环。
 
 ### 大陆税务居民提示（预扣税 ≠ 手续费）
 
