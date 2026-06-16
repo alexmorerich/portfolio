@@ -199,6 +199,45 @@ Put all HK$500k into **one** of: a bank **stock** (01398 ICBC or 03988 Bank of C
 - **SC Priority** minimum: **HK$1,000,000** average daily balance (not HK$500k). Below it (after the waiver period) the account service fee is **~HK$900/quarter (~HK$3,600/yr)** — but that is a *banking* fee; a non-Priority SC account still gets $0 securities custody, so it is avoidable.
 - **ICBC (Asia) Wealth-Management (Elite Club) account:** ~**HK$800,000** average relationship value (official tier table; confirm current figure). With only HK$500k you likely won't qualify, so ICBC custody would **not** be unconditionally waived for a long hold.
 
+### Scenario E — HK$800k principal, one holding (trade size flips the ranking)
+
+Put all **HK$800,000** into **one** of: 03466 (Hang Seng High Dividend 30 ETF) / 01398 (ICBC) / 03988 (Bank of China). **12 monthly buys of ~HK$66,667.**
+
+**Why this is different from HK$500k:**
+1. At **HK$66,667/trade, ICBC's 0.138% = HK$92** — *above* the HK$88 minimum (which only binds below HK$63,768). So ICBC's commission is now the **lowest (HK$1,104/yr)**, while the 0.20% banks (SC/DBS) are the **highest (HK$1,600/yr)** — the reverse of small trades.
+2. **HK$800k ≈ the ICBC Wealth-Management (Elite Club) threshold**, so you can open that account → **unconditional $0 custody + 0.125% commission**.
+
+**A single bank stock (01398 / 03988)** — stamp duty + 2 large dividends/yr:
+
+*Year 1 total (commission + dividend + ~HK$800 stamp duty + gov):*
+| Bank | Commission | Dividend | Custody | Stamp+gov | **Year-1 total** |
+|---|---|---|---|---|---|
+| **ICBC** | 1,104 | ~150 | 0 | ~895 | **≈ 2,149** |
+| Wing Lung | 1,440 | ~150 | 120 | ~895 | ≈ 2,605 |
+| SC Priority | 1,600 | ~150 | 0 | ~895 | ≈ 2,645 |
+| DBS Treasures | 1,600 | ~150 | 200 | ~895 | ≈ 2,845 |
+| BOCHK | 0 / 1,600 | ~150 | 0 / 2,000 | ~895 | ≈ 1,045 / 4,645 |
+
+*Year 2+ (dividend + custody):* dividend fee is **HK$280 for ALL banks** (large payouts clear every minimum). → **ICBC Wealth a/c & SC ≈ HK$280**; Wing Lung 400; ICBC-regular / DBS 480; BOCHK ~2,280.
+
+**The 03466 ETF** — no stamp duty; 12 monthly dividends:
+
+*Year 1 total (commission + dividend; no stamp duty):*
+| Bank | Commission | Dividend (12×) | Custody | Gov | **Year-1 total** |
+|---|---|---|---|---|---|
+| **ICBC** | 1,104 | ~245 | 0 | ~95 | **≈ 1,444** |
+| Wing Lung | 1,440 | 360 | 120 | ~95 | ≈ 2,015 |
+| SC Priority | 1,600 | 360 | 0 | ~95 | ≈ 2,055 |
+| DBS Treasures | 1,600 | 360 | 200 | ~95 | ≈ 2,255 |
+| BOCHK | 0 / 1,600 | 900 | 0 / 2,000 | ~95 | ≈ 995 / 4,595 |
+
+*Year 2+ (dividend + custody):* ICBC Wealth a/c **~280** · SC **360** · ICBC-regular **480** · Wing Lung 480 · DBS 560 · BOCHK ~2,900.
+
+**Takeaways:**
+- At this trade size **ICBC wins year 1 for both holdings** — its 0.138% finally beats the 0.20% banks once the HK$88 minimum stops binding.
+- HK$800k makes the **ICBC Wealth-Management account** reachable → unconditional $0 custody, so ICBC also wins long-term. **SC Priority** is the simple fallback (unconditional $0 custody, but 0.20% commission costs ~HK$500 more in year 1).
+- Bank stock: ~HK$800 stamp duty in year 1, then HK$280/yr dividend fee (same at all banks). ETF: no stamp duty but higher long-term handling (ICBC 280 / SC 360).
+
 ### Mainland-China tax-resident note (withholding tax ≠ handling fee)
 
 - The **dividend collection fee** above is the **bank's handling charge** — it varies by bank.
@@ -397,6 +436,45 @@ Put all HK$500k into **one** of: a bank **stock** (01398 ICBC or 03988 Bank of C
 **账户门槛（已核实）：**
 - **渣打优先**门槛：**HK$100 万**日均结余（非 50 万）。未达标（豁免期过后）户口服务费 **~HK$900/季（~HK$3,600/年）** —— 但这是*银行*费；用非优先的渣打证券户仍享 $0 保管，可避开。
 - **工银亚洲理财金（Elite Club）账户**：~**HK$80 万**理财总值（官方分层；现行以官网为准）。HK$50 万达不到，故长揸时工银托管**不会**无条件豁免。
+
+### 场景 E —— HK$80 万本金、单只（交易额翻转排名）
+
+全仓 **HK$800,000** 到**其中一只**：03466（恒生高股息30 ETF）/ 01398（工商）/ 03988（中行）。**12 次月供，每笔 ~HK$66,667。**
+
+**为何与 50 万不同：**
+1. **每笔 6.67 万时，工银 0.138% = HK$92** —— *超过* HK$88 最低收费（最低只在 <HK$63,768 时咬住）。所以工银佣金现在**最低（HK$1,104/年）**，而 0.20% 的渣打/星展**最高（HK$1,600/年）** —— 与小额时相反。
+2. **HK$80 万 ≈ 工银理财金（Elite Club）门槛**，可开该账户 → **无条件 $0 托管 + 佣金 0.125%**。
+
+**单只银行股（01398 / 03988）** —— 印花税 + 每年 2 次大额派息：
+
+*第一年总费用（佣金 + 股息 + 印花税~800 + 政府）：*
+| 银行 | 佣金 | 股息 | 托管 | 印花+政府 | **第一年总计** |
+|---|---|---|---|---|---|
+| **工银亚洲** | 1,104 | ~150 | 0 | ~895 | **≈ 2,149** |
+| 永隆金葵花 | 1,440 | ~150 | 120 | ~895 | ≈ 2,605 |
+| 渣打优先 | 1,600 | ~150 | 0 | ~895 | ≈ 2,645 |
+| 星展丰盛 | 1,600 | ~150 | 200 | ~895 | ≈ 2,845 |
+| 中银香港 | 0 / 1,600 | ~150 | 0 / 2,000 | ~895 | ≈ 1,045 / 4,645 |
+
+*以后每年（股息 + 存仓费）：* 股息费 **5 家全部 HK$280**（大额派息越过所有最低收费）→ **工银理财金 & 渣打 ≈ HK$280**；永隆 400；工银普通 / 星展 480；中银 ~2,280。
+
+**03466 ETF** —— 免印花税；12 次月派息：
+
+*第一年总费用（佣金 + 股息；ETF 免印花税）：*
+| 银行 | 佣金 | 股息(12次) | 托管 | 政府 | **第一年总计** |
+|---|---|---|---|---|---|
+| **工银亚洲** | 1,104 | ~245 | 0 | ~95 | **≈ 1,444** |
+| 永隆金葵花 | 1,440 | 360 | 120 | ~95 | ≈ 2,015 |
+| 渣打优先 | 1,600 | 360 | 0 | ~95 | ≈ 2,055 |
+| 星展丰盛 | 1,600 | 360 | 200 | ~95 | ≈ 2,255 |
+| 中银香港 | 0 / 1,600 | 900 | 0 / 2,000 | ~95 | ≈ 995 / 4,595 |
+
+*以后每年（股息 + 存仓费）：* 工银理财金 **~280** · 渣打 **360** · 工银普通 **480** · 永隆 480 · 星展 560 · 中银 ~2,900。
+
+**要点：**
+- 这个交易额下 **工银第一年两个标的都最低** —— 0.138% 在最低收费失效后终于胜过 0.20% 的银行。
+- HK$80 万让**工银理财金账户**可达 → 无条件 $0 托管，长揸也最优。**渣打优先**是免脑备选（无条件 $0 托管，但 0.20% 佣金第一年贵 ~HK$500）。
+- 银行股：第一年印花税 ~HK$800，往后股息费 HK$280/年（各行相同）；ETF：免印花税但长揸股息费略高（工银 280 / 渣打 360）。
 
 ### 大陆税务居民提示（预扣税 ≠ 手续费）
 
