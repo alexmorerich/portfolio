@@ -3,7 +3,8 @@
 
 Scenario G: HK$1,000,000 into 03070 + 03466 (1:1), lump-sum (2 trades).
 Scenario H: HK$80,000 x 12 monthly DCA into 03466 only (12 trades, ~HK$960k).
-Both use standard published online rates (promos noted separately in README).
+Scenario I: HK$16,700 x 60 monthly DCA into 02800 only (tiny trades, ~HK$1M).
+All use standard published online rates (promos noted separately in README).
 """
 import matplotlib
 matplotlib.use("Agg")
@@ -42,6 +43,26 @@ DATA_H = [
     ("Hang Seng 恒生",   3170, 660),
     ("NCB 南商",         3170, 660),
     ("BOCHK 中银香港",   5410, 2900),
+]
+
+# Scenario I — monthly DCA (HK$16,700 x 60 = ~HK$1M), single ETF 02800 (TraHK).
+# Trades are tiny -> commission MINIMUMS bind (mirror of Scenario H).
+# col 2 = Year-6+ steady-state hold (fully invested HK$1M, custody + dividend);
+# 02800 pays 2 large semi-annual dividends -> 0.5% (~HK$145/yr) beats every min,
+# so the dividend fee is ~equal everywhere and year-6+ ranking is pure custody.
+DATA_I = [
+    ("Futu 富途",        345,  145),
+    ("ICBC(Asia) 工银",  1340, 145),
+    ("Wing Lung 永隆",   585,  265),
+    ("CCB Asia 建行亚洲", 1425, 265),
+    ("SC 渣打",          705,  145),
+    ("BEA 东亚",         1365, 445),
+    ("DBS 星展",         705,  395),
+    ("CNCBI 中信国际",   1505, 345),
+    ("HSBC 汇丰",        1605, 445),
+    ("Hang Seng 恒生",   1605, 445),
+    ("NCB 南商",         1605, 445),
+    ("BOCHK 中银香港",   3395, 2150),
 ]
 
 # Use a CJK-capable font if available, else fall back (labels still ok in EN).
@@ -97,4 +118,9 @@ bar(DATA_H, 1, "First-Year Total Cost  首年总费用  (HK$80k×12 monthly DCA 
     "charts/scenarioH_year1.png")
 bar(DATA_H, 2, "Annual Cost from Year 2  第二年起每年费用  (custody + dividend 存仓+收股息)",
     "charts/scenarioH_year2.png")
+
+bar(DATA_I, 1, "First-Year Total Cost  首年总费用  (HK$16.7k×12 → 02800, min-bound)",
+    "charts/scenarioI_year1.png")
+bar(DATA_I, 2, "Steady-State Hold from Year 6  第6年起持有  (HK$1M: custody + dividend 存仓+收股息)",
+    "charts/scenarioI_year6.png")
 print("done")
