@@ -69,13 +69,18 @@ DATA_I = [
 
 # Scenario J — monthly DCA (HK$10,000 x 100 = exactly HK$1M), single ETF 02800.
 # User's own line-up: 7 banks + 6 brokers (13 institutions). Trades are SO small
-# (HK$10k) that the fixed per-order cost decides -> zero-fee brokers dominate.
-# col 1 = Year-1 total (first 12 buys + custody + 2 small dividends + ~HK$35 levies)
-# col 2 = Year-9+ steady-state hold (HK$1M, buying done; custody + dividend).
+# (HK$10k) that the fixed per-order COMMISSION cost decides -> brokers dominate.
+# All brokers charge the same dividend service fee 0.2%/min HK$30 (incl. Snowball
+# 尊嘉 -- it is NOT a $0-dividend outlier), so 2 payouts -> ~HK$60/yr steady-state.
+# NOTE: 尊嘉 also charges a 登记过户费 HK$1.5/lot (min HK$31.9) per dividend; at
+# HK$1M (~80 lots) that adds ~HK$240/yr -> ~HK$300 all-in. Such registrar fees may
+# apply at other houses too; cols below count only the 0.2%/min HK$30 service fee.
+# col 1 = Year-1 total (first 12 buys + custody + 2 small dividends @min + ~HK$35 levies)
+# col 2 = Year-9+ steady-state hold (HK$1M, buying done; custody + dividend service).
 DATA_J = [
-    ("Snowball 尊嘉",    50,   30),
-    ("uSMART 盈立",      210,  60),
-    ("Longbridge 长桥",  245,  60),
+    ("Snowball 尊嘉",    110,  60),
+    ("uSMART 盈立",      240,  60),
+    ("Longbridge 长桥",  275,  60),
     ("Futu 富途",        310,  60),
     ("Valuable 华盛",    310,  60),
     ("Tiger 老虎",       310,  60),
