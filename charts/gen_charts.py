@@ -4,6 +4,8 @@
 Scenario G: HK$1,000,000 into 03070 + 03466 (1:1), lump-sum (2 trades).
 Scenario H: HK$80,000 x 12 monthly DCA into 03466 only (12 trades, ~HK$960k).
 Scenario I: HK$16,700 x 60 monthly DCA into 02800 only (tiny trades, ~HK$1M).
+Scenario J: HK$10,000 x 100 monthly DCA into 02800 only, 13 institutions
+            (7 banks + 6 brokers) -- super-tiny trades, exactly HK$1M.
 All use standard published online rates (promos noted separately in README).
 """
 import matplotlib
@@ -65,6 +67,27 @@ DATA_I = [
     ("BOCHK 中银香港",   3395, 2150),
 ]
 
+# Scenario J — monthly DCA (HK$10,000 x 100 = exactly HK$1M), single ETF 02800.
+# User's own line-up: 7 banks + 6 brokers (13 institutions). Trades are SO small
+# (HK$10k) that the fixed per-order cost decides -> zero-fee brokers dominate.
+# col 1 = Year-1 total (first 12 buys + custody + 2 small dividends + ~HK$35 levies)
+# col 2 = Year-9+ steady-state hold (HK$1M, buying done; custody + dividend).
+DATA_J = [
+    ("Snowball 尊嘉",    50,   30),
+    ("uSMART 盈立",      210,  60),
+    ("Longbridge 长桥",  245,  60),
+    ("Futu 富途",        310,  60),
+    ("Valuable 华盛",    310,  60),
+    ("Tiger 老虎",       310,  60),
+    ("Wing Lung 永隆",   430,  265),
+    ("DBS 星展",         535,  395),
+    ("SC 渣打",          695,  145),
+    ("ICBC(Asia) 工银",  1330, 145),
+    ("CNCBI 中信国际",   1495, 345),
+    ("HSBC 汇丰",        1595, 445),
+    ("BOCHK 中银香港",   3385, 2150),
+]
+
 # Use a CJK-capable font if available, else fall back (labels still ok in EN).
 for f in ["PingFang HK", "PingFang SC", "Heiti SC", "Arial Unicode MS", "STHeiti"]:
     try:
@@ -123,4 +146,9 @@ bar(DATA_I, 1, "First-Year Total Cost  首年总费用  (HK$16.7k×12 → 02800,
     "charts/scenarioI_year1.png")
 bar(DATA_I, 2, "Steady-State Hold from Year 6  第6年起持有  (HK$1M: custody + dividend 存仓+收股息)",
     "charts/scenarioI_year6.png")
+
+bar(DATA_J, 1, "First-Year Total Cost  首年总费用  (HK$10k×100 → 02800; 7 banks + 6 brokers)",
+    "charts/scenarioJ_year1.png")
+bar(DATA_J, 2, "Steady-State Hold from Year 9  第9年起持有  (HK$1M: custody + dividend 存仓+收股息)",
+    "charts/scenarioJ_steady.png")
 print("done")
