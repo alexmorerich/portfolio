@@ -1,0 +1,9 @@
+# Playwright MCP scratch artifacts
+.playwright-mcp/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
