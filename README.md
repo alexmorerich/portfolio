@@ -17,6 +17,7 @@
 | **D** | One holding, HK$500k / 三选一全仓50万 | Stock **SC/WL** · ETF **ICBC** | Bank-stock dividend fee equal at all banks; monthly ETF → ICBC min $20 |
 | **E** | One holding, HK$800k (~HK$66k/trade) / 全仓80万 | **ICBC (Wealth a/c)** | 0.138% beats 0.20% at big trades; HK$800k unlocks ICBC Wealth |
 | **F** | HK$3M anti-sanctions (gold+USD+stock) / 抗制裁300万 | **ICBC (Wealth a/c)** | 0.1% ≥HK$1M tier + unconditional custody; gold & USD have no dividend fee |
+| **G** | **12 institutions**, HK$1M (03070+03466) / 12家全机构 | Yr1 **Futu** · hold **ICBC Wealth** | Broker beats banks on commission; ICBC's HK$20 div-min + free custody win long-term; **BOCHK worst** |
 
 **Rule of thumb / 经验法则:** small trades → *minimums* dominate (low-min banks win); big trades → *rates* dominate (ICBC's 0.138% / ≥1M 0.1% wins); long-term hold → *custody* dominates (SC or ICBC-Wealth, unconditional $0). **BOCHK only with promos**, and worst for frequent small dividends (HK$75 min). / 小额拼最低收费、大额拼费率（工银）、长揸拼托管（渣打/工银理财金）；中银只在促销时考虑。
 
@@ -292,6 +293,64 @@ Only **two legs (gold ETF + stock ≈ HK$2M securities)** carry custody; only th
 - **ICBC wins** at HK$3M: ≥HK$1M trades get the **0.1%** tier, and HK$3M easily clears the Wealth-account threshold → unconditional $0 custody. SC Priority is the simple fallback.
 - The **gold ETF and USD deposit add no dividend fee**; the only recurring handling fee is the bank stock's ~HK$350/yr (same at all banks).
 - For sanctions resilience, fees are secondary — prioritise **HK/Asia-held assets** (HK-vaulted gold 03081, HK-cleared stocks) and reconsider the USD-deposit leg.
+
+### Scenario G — all 12 institutions: HK$1M into 03070 + 03466 (1:1)
+
+HK$1,000,000 split **1:1** into **03070** (Ping An CSI HK Dividend, quarterly) + **03466** (Hang Seng High Dividend 30, monthly) → ~**16 dividend payouts/year**. Lump-sum (2 trades). **Standard published online rates** (promos noted separately). Both are ETFs → no stamp duty.
+
+**Verified fee schedule (online channel, 2026):**
+| Institution | Commission | Custody (while holding) | Dividend |
+|---|---|---|---|
+| Futu 富途 *(broker)* | 0.03%, min HK$3 **+ platform HK$15/order** (commission $0 promo) | **$0** | 0.2%, min HK$30 (if div>HK$60) + HK$1.5/lot |
+| ICBC (Asia) 工银 | 0.138% *(Wealth 0.125%)*, min HK$88 | $0 (turnover/Wealth) · else ~HK$200 | 0.5%, **min HK$20**, max 2,500 |
+| Wing Lung 永隆 | 0.18%, min HK$4.88, mo-cap HK$2,888 | HK$120/yr | 0.5%, min HK$30, max 2,000 |
+| CCB Asia 建行亚洲 | 0.18%, min HK$100 | HK$120/yr (May 31) | 0.5%, min HK$30, max 2,000 |
+| SC 渣打 | 0.20%, min HK$50 | **$0** | 0.5%, min HK$30 |
+| BEA 东亚 | 0.18%, min HK$80 | HK$300/yr (HK$150×2) | 0.5%, min HK$30, max 2,500 |
+| DBS 星展 | 0.20%, no min | ~HK$250/yr (0.025%) | 0.5%, min HK$30, max 2,500 |
+| CNCBI 中信国际 | 0.25% *(diamond 0.15%)*, min HK$100 | HK$200/yr | 0.5%, min HK$30, max 2,500 |
+| HSBC 汇丰 | 0.25%, min HK$100 | HK$300/yr (HK$25/mo) | 0.5%, min HK$30, max 2,500 |
+| Hang Seng 恒生 | 0.25%, min HK$100 | HK$300/yr (Prestige 180) | 0.5%, min HK$30, max 2,000 |
+| NCB 南商 | 0.18–0.25% *(tiered)*, min HK$100 | HK$300/yr (tiered) | 0.5%, min HK$30, max 2,500 |
+| BOCHK 中银香港 | 0.25% (monthly-plan $0 promo) | **HK$2,000/yr** (HK$1,000×2) | 0.5%, **min HK$75**, max 6,500 |
+
+**First-year total cost** (commission + custody + dividend + ~HK$100 gov):
+
+![First-year total cost](charts/scenarioG_year1.png)
+
+| # | Institution | Year-1 |
+|---|---|---|
+| 1 | **Futu 富途** | ~HK$940 |
+| 2 | **ICBC (Asia) 工银** | ~HK$1,715 |
+| 3 | Wing Lung / CCB Asia | ~HK$2,505 |
+| 5 | SC 渣打 | ~HK$2,585 |
+| 6 | BEA 东亚 | ~HK$2,685 |
+| 7 | DBS 星展 | ~HK$2,835 |
+| 8 | CNCBI 中信国际 | ~HK$3,285 |
+| 9 | HSBC / Hang Seng / NCB | ~HK$3,385 |
+| 12 | BOCHK 中银香港 | ~HK$5,800 |
+
+**From Year 2 onward — custody + dividend only:**
+
+![Year 2+ annual cost](charts/scenarioG_year2.png)
+
+| # | Institution | Year-2+ /yr |
+|---|---|---|
+| 1 | **ICBC (Wealth a/c) 工银理财金** | ~HK$365 |
+| 2 | SC 渣打 | ~HK$485 |
+| 3 | Futu 富途 | ~HK$490 |
+| 4 | Wing Lung / CCB Asia | ~HK$605 |
+| 6 | CNCBI 中信国际 | ~HK$685 |
+| 7 | DBS 星展 | ~HK$735 |
+| 8 | BEA / HSBC / Hang Seng / NCB | ~HK$785 |
+| 12 | BOCHK 中银香港 | ~HK$3,200 |
+
+**Findings:**
+- **Year 1 → Futu** (broker: 0.03% commission + no custody). Among banks **ICBC** is far ahead (0.138% vs the big banks' 0.25%). HSBC, Hang Seng and NCB are pricey: 0.25% commission + ~HK$300/yr monthly custody.
+- **Year 2+ → ICBC Wealth account** (~HK$365): lowest dividend min (HK$20) + unconditional custody waiver (HK$1M clears the Wealth threshold). SC and Futu next (~HK$485).
+- **BOCHK is worst in both years** — HK$2,000/yr custody + HK$75 dividend min are structural, not promo-fixable.
+- **Dividend fee is minimum-driven**: 16 small payouts/yr → each institution's *minimum* dividend fee decides it (ICBC HK$20 < most HK$30 < BOCHK HK$75). Futu's low 0.2% rate doesn't help — its HK$30 minimum still binds.
+- **Assumptions:** lump-sum (2 trades), standard rates. Monthly DCA (24 trades) adds ~HK$330 to Futu (per-order platform fee) and ~HK$730 to ICBC (HK$88 min binds), little to the 0.20–0.25% banks. Promos (Futu $0 standing; HSBC/BOCHK/Hang Seng $0 on first HK$250–500k/month) would cut year-1 commission for those.
 
 ### Mainland-China tax-resident note (withholding tax ≠ handling fee)
 
@@ -570,6 +629,64 @@ Only **two legs (gold ETF + stock ≈ HK$2M securities)** carry custody; only th
 - **工银胜出**：HK$300 万下，≥HK$100 万的单笔享 **0.1%** 档，且 300 万轻松达理财金门槛 → 无条件 $0 托管。渣打优先为免脑备选。
 - **黄金 ETF 和美元存款都不产生代收股息费**；唯一经常性手续费是银行股的 ~HK$350/年（各行相同）。
 - 抗制裁层面，费率是次要的 —— 优先选**存放于香港/亚洲的资产**（香港金库黄金 03081、香港结算的股票），并重新考虑美元存款那一环。
+
+### 场景 G —— 12 家全机构：HK$100 万买 03070 + 03466（1:1）
+
+HK$100 万 **1:1** 买 **03070**（平安CSI香港高息，季派）+ **03466**（恒生高息股30，月派）→ 全年约 **16 次派息**。一次性买入（2 笔）。**标准网上费率**（促销另注）。两只都是 ETF → 免印花税。
+
+**已核实费率（网上渠道，2026）：**
+| 机构 | 佣金 | 托管（持仓时） | 代收股息 |
+|---|---|---|---|
+| 富途 Futu *(券商)* | 0.03%，最低 HK$3 **+ 平台费 HK$15/单**（佣金 $0 推广） | **$0** | 0.2%，最低 HK$30（派息>HK$60时）+ HK$1.5/手 |
+| 工银亚洲 | 0.138% *(理财金 0.125%)*，最低 HK$88 | $0（周转/理财金）· 否则 ~HK$200 | 0.5%，**最低 HK$20**，最高 2,500 |
+| 永隆金葵花 | 0.18%，最低 HK$4.88，月封顶 2,888 | HK$120/年 | 0.5%，最低 HK$30，最高 2,000 |
+| 建行亚洲 | 0.18%，最低 HK$100 | HK$120/年（5月31） | 0.5%，最低 HK$30，最高 2,000 |
+| 渣打 | 0.20%，最低 HK$50 | **$0** | 0.5%，最低 HK$30 |
+| 东亚 BEA | 0.18%，最低 HK$80 | HK$300/年（150×2） | 0.5%，最低 HK$30，最高 2,500 |
+| 星展 | 0.20%，无最低 | ~HK$250/年（0.025%） | 0.5%，最低 HK$30，最高 2,500 |
+| 中信国际 | 0.25% *(钻石 0.15%)*，最低 HK$100 | HK$200/年 | 0.5%，最低 HK$30，最高 2,500 |
+| 汇丰 HSBC | 0.25%，最低 HK$100 | HK$300/年（HK$25/月） | 0.5%，最低 HK$30，最高 2,500 |
+| 恒生 | 0.25%，最低 HK$100 | HK$300/年（优越 180） | 0.5%，最低 HK$30，最高 2,000 |
+| 南商 NCB | 0.18–0.25% *(分级)*，最低 HK$100 | HK$300/年（分级） | 0.5%，最低 HK$30，最高 2,500 |
+| 中银香港 | 0.25%（月供计划 $0 推广） | **HK$2,000/年**（1,000×2） | 0.5%，**最低 HK$75**，最高 6,500 |
+
+**首年总费用**（佣金+托管+股息+~HK$100政府）：
+
+![首年总费用](charts/scenarioG_year1.png)
+
+| # | 机构 | 首年 |
+|---|---|---|
+| 1 | **富途 Futu** | ~HK$940 |
+| 2 | **工银亚洲** | ~HK$1,715 |
+| 3 | 永隆 / 建行亚洲 | ~HK$2,505 |
+| 5 | 渣打 | ~HK$2,585 |
+| 6 | 东亚 | ~HK$2,685 |
+| 7 | 星展 | ~HK$2,835 |
+| 8 | 中信国际 | ~HK$3,285 |
+| 9 | 汇丰 / 恒生 / 南商 | ~HK$3,385 |
+| 12 | 中银香港 | ~HK$5,800 |
+
+**第二年起 —— 仅托管 + 收股息：**
+
+![第二年起年费](charts/scenarioG_year2.png)
+
+| # | 机构 | 第二年起/年 |
+|---|---|---|
+| 1 | **工银理财金** | ~HK$365 |
+| 2 | 渣打 | ~HK$485 |
+| 3 | 富途 | ~HK$490 |
+| 4 | 永隆 / 建行亚洲 | ~HK$605 |
+| 6 | 中信国际 | ~HK$685 |
+| 7 | 星展 | ~HK$735 |
+| 8 | 东亚 / 汇丰 / 恒生 / 南商 | ~HK$785 |
+| 12 | 中银香港 | ~HK$3,200 |
+
+**结论：**
+- **首年 → 富途**（券商：0.03% 佣金 + 无托管）。银行里 **工银**遥遥领先（0.138% vs 大行 0.25%）。汇丰/恒生/南商最贵：0.25% 佣金 + ~HK$300/年 月度托管。
+- **第二年起 → 工银理财金**（~HK$365）：股息最低收费 HK$20 + 无条件免托管（HK$100 万达理财金门槛）。渣打、富途次之（~HK$485）。
+- **中银香港两年都最差** —— HK$2,000/年 托管 + HK$75 股息最低，促销也救不了。
+- **股息费由最低收费主导**：16 次小额派息 → 拼各行的股息**最低收费**（工银 HK$20 < 多数 HK$30 < 中银 HK$75）。富途 0.2% 低费率没用——它 HK$30 最低收费照样咬住。
+- **假设**：一次性 2 笔、标准费率。改月供（24 笔）会给富途加 ~HK$330（每单平台费）、给工银加 ~HK$730（min88 咬住），对 0.20–0.25% 的银行影响小。促销（富途 $0 常设；汇丰/中银/恒生 首 HK$25–50 万/月免佣）会降首年佣金。
 
 ### 大陆税务居民提示（预扣税 ≠ 手续费）
 
